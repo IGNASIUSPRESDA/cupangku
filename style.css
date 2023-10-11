@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: rgb(235, 225, 225);
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 65%;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(218, 14, 14, 0.2);
+}
+.box{
+    display: flex;
+}
+.container h2{
+    text-align: center;
+}
+.cupang{
+    max-width: 900px;
+}
+
+.cupang img{
+    border-radius: 10%;
+    margin: 0.5rem;
+}
+.cupang p{
+    text-align: center;
+    background-color: rgb(159, 159, 179);
+    margin: 0.5rem;
+    border-radius: 40px;
+    padding: 0.2rem;
+}
+.cupang img:hover{
+    transform: scale(1.1);
+}
+.cupang p:hover{
+    background-color: rgb(128, 128, 241);
+    transform: scale(1.1);
+}
+
+/* footer section */
+footer {
+    background: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+}
+footer h2{
+    color: yellow;
+}
+
+.footer-text {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 20px 0px;
+}
+
+footer input:hover[type='submit'] {background: rgb(219, 3, 154);}
+.list-footer {
+    margin: 20px 0px;
+    display: flex;
+    list-style-type: none;
+}
+
+.list-footer li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.list-footer li a:hover{color: var(--mycolor);}
+.social-media {
+    margin: 20px auto;
+}
+
+.footer-social-media i {
+    padding: 20px;
+    font-size: 25px;
+    color: #fff;
+}
+
+.footer-social-media i:hover{
+    color: rgb(2,255,171);
+}
