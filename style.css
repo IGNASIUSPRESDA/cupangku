@@ -1,13 +1,11 @@
 * {
     margin-left: 0;
     padding: 0;
-    box-sizing: border-box;
     justify-content: center;
     align-items: center;
 }
 
 body {
-    margin-left: 3%;
     font-family: Arial, sans-serif;
     background-color: #cbc6c6;
     margin: 0;
@@ -17,7 +15,6 @@ body {
 }
 
 header {
-    margin-left: 3%;
     background-color: #333;
     color: rgb(235, 225, 225);
     text-align: center;
@@ -27,7 +24,6 @@ header {
 
 .container {
     padding: 0;
-    margin-left: 10%;
     text-align: center;
     justify-content: center;
     text-align: center;
@@ -37,7 +33,6 @@ header {
     height: auto;
     overflow: auto;
     margin-bottom: 40px;
-    width: 100%;
 }
 
 .box {
@@ -46,41 +41,8 @@ header {
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
     -webkit-overflow-scrolling: touch;
+    flex-wrap: wrap;
 }
-
-.box::-webkit-scrollbar {
-    width: 15px;
-    height: 15px;
-}
-
-.box::-webkit-scrollbar-thumb {
-    background: black;
-    border-radius: 10px;
-}
-
-.slides::-webkit-scrollbar-track {
-    background: transparent;
-}
-
-.author-info {
-    background: rgba(0, 0, 0, 0.75);
-    color: white;
-    padding: 0.75rem;
-    text-align: center;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    margin: 0;
-}
-
-html,
-body {
-    height: 100%;
-    overflow: hidden;
-    width: 100%;
-}
-
 
 .h22 {
     text-align: center;
@@ -100,7 +62,7 @@ body {
 .cupang img {
     border-radius: 10%;
     margin: 0.5rem;
-    width: 200px;
+    width: 150px;
     aspect-ratio: 1/1;
 }
 
@@ -130,7 +92,6 @@ footer {
     text-align: center;
     color: #fff;
     border-radius: 20px;
-    margin-left: 5%;
 }
 
 footer h2 {
@@ -177,46 +138,20 @@ footer input:hover[type='submit'] {
 
 }
 
+@media screen and (max-width: 480px) {
+    .cupang p {
+        background-color: yellow;
+    }
+    .box{
+        justify-content: center;
+        align-items: center;
+    }
+    .h22 {
+        color: yellow;
+    }
+}
+
 .footer-social-media i:hover {
     color: rgb(2, 255, 171);
 }
 
-@media(max-width:480px) {
-    * {
-        justify-content: center;
-        align-items: center;
-    }
-
-    .container h2 {
-        background-color: rgb(79, 79, 72);
-    }
-
-    .container {
-        margin-left: 5%;
-    }
-
-    .box {
-        align-items: center;
-        justify-content: center;
-    }
-}
-
-@media screen (max-width:480px) {
-    * {
-        justify-content: center;
-        align-items: center;
-    }
-
-    .container h2 {
-        background-color: yellow;
-    }
-
-    .container {
-        margin-left: 5%;
-    }
-
-    .box {
-        align-items: center;
-        justify-content: center;
-    }
-}
