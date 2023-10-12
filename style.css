@@ -1,31 +1,52 @@
+*{
+    margin-left: 5%;
+    padding: 0;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
+
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #cbc6c6;
     margin: 0;
     padding: 0;
+    justify-content: center;
+    align-items: center;
 }
 
 header {
     background-color: #333;
     color: rgb(235, 225, 225);
     text-align: center;
-    padding: 20px;
+    padding: 27px;
+    border-radius: 20px;
 }
 
 .container {
-    max-width: 65%;
-    margin: 20px auto;
     padding: 20px;
-    box-shadow: 0 0 5px rgba(218, 14, 14, 0.2);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 .box{
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+
 .container h2{
     text-align: center;
+    margin-bottom: 15px;
+    align-items: center;
+    justify-content: center;
+    color: rgb(21, 3, 3);
 }
 .cupang{
-    max-width: 900px;
+    background-color: beige;
+    margin: 0.5rem;
+    border-radius: 10%;
 }
 
 .cupang img{
@@ -49,16 +70,18 @@ header {
 
 /* footer section */
 footer {
-    background: rgb(0, 0, 0);
+    background: rgb(35, 33, 33);
     display: flex;
     align-items: center;
     flex-direction: column;
     text-align: center;
     color: #fff;
     padding: 20px;
+    border-radius: 20px;
 }
 footer h2{
-    color: gold;
+    color: rgb(161, 155, 124);
+    margin-bottom: 30px;
 }
 
 .footer-text {
@@ -88,11 +111,46 @@ footer input:hover[type='submit'] {background: rgb(219, 3, 154);}
 }
 
 .footer-social-media i {
-    padding: 20px;
-    font-size: 25px;
+    padding: 5px;
+    font-size: 30px;
     color: #fff;
+    
 }
 
 .footer-social-media i:hover{
     color: rgb(2,255,171);
+}
+
+@media(max-width:480px){
+    *{
+        justify-content: center;
+        align-items: center;
+    }
+    .container h2{
+        background-color: rgb(79, 79, 72);
+    }
+    .container{
+        margin-left: 5%;
+    }
+    .box{
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen (max-width:480px) {
+    *{
+        justify-content: center;
+        align-items: center;
+    }
+    .container h2{
+        background-color: yellow;
+    }
+    .container{
+        margin-left: 5%;
+    }
+    .box{
+        align-items: center;
+        justify-content: center;
+    }
 }
