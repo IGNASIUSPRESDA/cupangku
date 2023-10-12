@@ -37,6 +37,7 @@ header {
     height: auto;
     overflow: auto;
     margin-bottom: 40px;
+    width: 100%;
 }
 
 .box {
