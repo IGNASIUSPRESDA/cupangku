@@ -62,17 +62,17 @@ body {
 .utama img {
     width: 270px;
     aspect-ratio: 1/1;
-    margin-bottom: 90px;
-    margin-top: 90px;
+    margin-bottom: 20px;
+    margin-top: 20px;
     margin-left: 80px;
 }
 
 .utama p {
-    font-size: medium;
+    font-size: larger;
     margin-left: 90px;
-    color: chocolate;
-    margin-bottom: 150px;
-    margin-top: 60px;
+    color: black;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 /* cupang */
