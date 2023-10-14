@@ -14,13 +14,68 @@ body {
     align-items: center;
 }
 
-header {
-    background-color: #333;
-    color: rgb(235, 225, 225);
-    text-align: center;
-    padding: 27px;
-    border-radius: 20px;
+/* styling navbar */
+
+.navbar {
+    display: flex;
+    background-color: rgb(202, 136, 136);
 }
+
+.navbar .title {
+    margin-right: 400px;
+}
+
+.title h1 {
+    text-decoration: none;
+    color: rgb(240, 240, 174);
+}
+
+.navbar .title a:visited {
+    color: yellowgreen;
+}
+
+.navbar .navigations {
+    display: flex;
+}
+
+.navbar li {
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar li a {
+    text-decoration: none;
+    margin: 1rem;
+}
+
+.navbar li a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+/* Halaman Utama */
+.utama {
+    background-color: white;
+    display: flex;
+}
+
+.utama img {
+    width: 270px;
+    aspect-ratio: 1/1;
+    margin-bottom: 90px;
+    margin-top: 90px;
+    margin-left: 80px;
+}
+
+.utama p {
+    font-size: medium;
+    margin-left: 90px;
+    color: chocolate;
+    margin-bottom: 150px;
+    margin-top: 60px;
+}
+
+/* cupang */
 
 .container {
     padding: 0;
