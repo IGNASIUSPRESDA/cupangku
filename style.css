@@ -7,7 +7,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: rgb(244, 236, 236);
+    background-color: white;
     margin: 0;
     padding: 0;
     justify-content: center;
@@ -68,7 +68,7 @@ body {
 }
 
 .utama p {
-    font-size: larger;
+    font-size: large;
     margin-left: 90px;
     color: black;
     margin-bottom: 10px;
@@ -80,8 +80,8 @@ body {
 
 .about {
     padding: 5rem 7% 1.4rem;
-    margin: auto;
     background-color: #fff;
+    margin-right: 90px;
 }
 
 .about h1 {
@@ -124,6 +124,10 @@ body {
     justify-content: center;
 }
 
+.contentt p {
+    font-size: small;
+}
+
 
 /* cupang */
 
@@ -138,6 +142,7 @@ body {
     height: auto;
     overflow: auto;
     margin-bottom: 40px;
+    background-color: #f9f8f8;
 }
 
 .box {
