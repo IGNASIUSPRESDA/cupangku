@@ -151,7 +151,7 @@ footer {
 }
 
 footer h2 {
-    color: rgb(161, 155, 124);
+    color: rgb(107, 107, 182);
     margin-bottom: 30px;
 }
 
@@ -184,13 +184,14 @@ footer input:hover[type='submit'] {
 }
 
 .social-media {
-    margin: 20px auto;
+    margin: 50px;
 }
 
 .footer-social-media i {
     padding: 5px;
     font-size: 30px;
     color: #fff;
+    margin: 2rem;
 
 }
 
