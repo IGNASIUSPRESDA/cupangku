@@ -27,7 +27,7 @@ body {
 
 .title h1 {
     text-decoration: none;
-    color: rgb(240, 240, 174);
+    color: blueviolet;
 }
 
 .navbar .title a:visited {
@@ -70,9 +70,10 @@ body {
 .utama p {
     font-size: larger;
     margin-left: 90px;
-    color: black;
+    color: blue;
     margin-bottom: 10px;
     margin-top: 10px;
+    font-style: italic;
 }
 
 /* cupang */
@@ -104,7 +105,7 @@ body {
     margin-bottom: 15px;
     align-items: center;
     justify-content: center;
-    color: rgb(21, 3, 3);
+    color: blue;
     font-size: 2rem;
 }
 
