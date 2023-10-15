@@ -7,7 +7,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: rgb(237, 220, 222);
+    background-color: rgb(246, 239, 241);
     margin: 0;
     padding: 0;
     justify-content: center;
@@ -18,7 +18,7 @@ body {
 
 .navbar {
     display: flex;
-    background-color: rgb(202, 136, 136);
+    background-color: rgb(209, 176, 176);
 }
 
 .navbar .title {
@@ -75,15 +75,17 @@ body {
     color: black; 
     padding: 15px; 
     border-radius: 15px; 
-    font-size: 1.5em; 
+    font-size: 1.5rem; 
     font-weight: bold; 
+    padding-right: 70px;
+    padding-left: 70px;
 }
   
 
 /* styling jelajahi program */
 
 .about {
-    padding: 5rem 7% 1.4rem;
+    padding-right: 70px;
     background-color: rgb(245, 233, 235);
 }
 
@@ -107,19 +109,19 @@ body {
     width: 150px;
 }
 
-.about .row .content {
-    flex: 1 1 35rem;
-    margin-top: 2rem;
+.content {
+    margin-top: 1rem;
+
 }
 
 .about .row .content h2 {
-    font-size: 1.6rem;
+    font-size: 25px;
     margin-left: 1rem;
     color: #150436;
 }
 
 .about .row .content p {
-    font-size: 1rem;
+    font-size:15px; 
     display: flex;
     padding-left: 1rem;
     margin-bottom: 2rem;
